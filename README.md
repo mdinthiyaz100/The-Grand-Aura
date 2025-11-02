@@ -19,9 +19,7 @@
 
 - **HTML5**  
 - **CSS3**  
-- **JavaScript** *(optional: React.js if you used it)*  
-- **Bootstrap / Tailwind CSS** *(if applicable)*  
-
+- **JavaScript**
 ---
 
 ## 🚀 How to Run Locally
