@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    background-color: #4B1E1E;
+    padding: 25px 80px;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: "Cormorant Garamond";
+    letter-spacing: 1px;
+}
+
+#logo {
+    font-family: "Playfair Display", "Cinzel";
+    color: gold;
+    letter-spacing: 3px;
+    font-size: 26px;
+}
+
+#top { 
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/hotel4.jpg") center/cover no-repeat;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    margin-top: 0%;
+    height: 1700vph;
+}
+
+#name {
+    padding-top: 180px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#top h1 {
+    padding-top: 70px;
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#top h3 {
+    padding: 80px;
+    color: white;
+    width: 70%;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 220px;
+}
+
+#three {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+#About {
+    background-color: #f5f0e6;
+    color: #222;
+    padding: 80px 0;
+}
+
+#split-section {
+    display: flex; 
+}
+
+#h {
+    margin-top: 90px;
+    margin-left: 150px;
+}
+
+p {
+    margin-top: 25px;
+    margin-left: 150px;
+    padding-right: 200px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    line-height: 1.8;
+    font-size: large;     
+}
+
+#image {
+    margin-top: 60px;
+    margin-right: 150px;
+    height: 600px;
+}
+
+#Rooms {
+    background-color: #1a1a1a;
+    color: #eaeaea;
+    padding: 80px 0;
+}
+
+#roomtype {
+    text-align: center;
+    padding-top: 250px;
+    color: #e0c785;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 10px;
+}
+
+#Delux, #LuxurySuite, #Presidentalsuite, #Familyroom {
+    display: flex;
+}
+
+#heading {
+    text-align: center;
+    margin-top: 50px;
+    color: #d4af37;
+    font-family: serif;
+    font-size: 36px;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+}
+
+#roomimg {
+    width: 58%;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+
+#subhead {
+    text-align: center;
+    padding-top: 50px;
+    color: #bfa76f;
+    font-family: italic;
+    letter-spacing: 0.5px;
+    margin-bottom: 15px;
+}
+
+#description {
+    line-height: 2.2;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: block;
+    padding: 25px 15px;
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: large;
+}
+
+#features {
+    padding-top: 10px;
+    margin-left: 40px;
+}
+
+ul {
+    padding-top: 10px;
+    margin-left: 25px;
+    line-height: 2;
+    font-size: large;
+}
+
+#price {
+    padding-top: 50px;
+    margin-left: 50px;
+}
+
+.book-btn {
+    background-color: #d4af37;
+    display: inline-block;
+    color: rgb(235, 234, 234);
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: 1px;   
+    border: none;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+    
+    
+}
+
+
+.book-btn:hover {
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 10px;
+}
+
+#Amenities {
+    background-color: #f7f3ec;
+    padding: 80px 0;
+}
+
+#card {
+    background-color: white;
+    color: white;
+    width: 90%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    margin: 20px;
+} 
+
+#cardimg {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#title {
+    font-family: "Cinzel";
+    color: #222;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#para {
+    font-size: 15px;
+    color: #2a2a2a;
+    line-height: 1.8;
+    max-width: 600%;
+    margin: 0;
+    margin-right: 0;
+    padding-right: 10px;
+}
+
+span {
+    background-color: #d4af37;
+    color: #2a2a2a;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    justify-items: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+#Booking {
+    background-color: #f5e9d2;
+    padding: 80px 0;
+}
+
+input,
+textarea,
+select {
+    margin-left: 450px;
+    width: 30%;
+    height: 40px;
+    margin-top: 90px;
+    background-color: white;
+    margin-right: 70px;
+}
+
+#submit {
+    background-color: #d4af37;
+    color: white;
+    margin-top: 70px;
+    padding: 18px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 30px;
+    cursor: pointer;
+    letter-spacing: 1px;   
+    border: none;
+    transition: all 0.3s ease;
+}
+
+#submit:hover {
+    border: 2px solid #d4af37;
+    box-shadow: 0 0 10px;
+}
+
+.footer-content {
+    background-color: #2a2a2a;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px 80px;
+    justify-content: space-between;
+    gap: 40px;
+    color: #f1f1f1;
+}
+
+.links-col a {
+    display: block;
+    margin-bottom: 8px;
+    line-height: 1.8;
+}
+
+.links-col a:hover {
+    color: #d4af37;
+}
+
+#links {
+    color: #d4af37;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+h3 {
+    color: #d4af37;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+h4 {
+    display: block;
+    line-height: 2.4;
+}
+
+#footer-last {
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
